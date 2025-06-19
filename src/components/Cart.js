@@ -12,6 +12,8 @@ const Cart = () => {
     navigate('/checkout');
   };
 
+  //
+
   if (cart.length === 0) {
     return (
       <div
